@@ -1,0 +1,110 @@
+.sticky{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  background:#666;
+  color:#fff;
+}
+.sticky h2,p{
+  font-size:100%;
+  font-weight:normal;
+}
+.sticky ul,li{
+  list-style:none;
+}
+.sticky ul{
+  overflow:hidden;
+  padding:3em;
+  border:#cecece solid 10px;
+}
+.sticky ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:24em;
+  width:17.5em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+.sticky ul li{
+  margin:1em;
+  float:left;
+}
+.sticky ul li h2{
+  font-size:140%;
+  font-weight:bold;
+  padding-bottom:10px;
+}
+.sticky ul li p{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+}
+.sticky ul li a{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+.sticky ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+.sticky ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+.sticky ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+.sticky ul li a:hover,.sticky ul li a:focus{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+.sticky ol{text-align:center;}
+.sticky ol li{display:inline;padding-right:1em;}
+.sticky ol li a{color:#fff;}
+
+.container{
+  width: 100%
+}
+body{
+  background: #f3f1f1;
+}
+.sticky_board{
+  text-align: center;
+}
+.sticky_board h3{
+  color: #4a4a4a;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.btn-floating.btn-large i {
+    line-height: 85px;
+}
+.btn-floating.btn-large {
+    width: 80px;
+    height: 80px;
+  }

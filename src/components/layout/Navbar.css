@@ -1,0 +1,37 @@
+.container{
+  width: 100%
+}
+.tasks_list{
+  height: 50px
+}
+
+body{
+  background: #fbfbfb
+}
+
+.dashboard_card{
+  margin-top: 2%;
+}
+
+.left_dashboard{
+  margin-right: 30px;
+  position: fixed;
+  z-index: 1
+  }
+  .task_headline{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #4a4a4a;
+  border-bottom: 1px solid #d4d4d4;
+  padding-bottom: 8px;
+  font-family: sans-serif;
+  display: block;
+  }
+
+  @media screen and (max-width: 991px) {
+.right_dashboard {
+  margin-top: 24%
+}
+}
